@@ -1,0 +1,40 @@
+senthil reactjs ecommerce details and steps:
+step1:	Backend setup
+	git clone
+	E:\senthil-react-onlineshop>git clone https://github.com/jvlcode/nodejs-ecommerce-backend
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend>code .
+step2:	Install Dependencies	
+	nodejs install
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend>npm install
+step3:	Database Configuration
+	mongoDB download and install
+	backend>config>config.env
+	DB_LOCAL_URI=mongodb://localhost:27017/senthilshopdb
+step4:	Run Backend Server
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend>npm start prod
+step5:	Import Postman API Collection
+	API services test used for postman
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend>npm run seeder
+step6:	Email Configuration
+	mailtrap
+step7:	Payment Gateway Configuration
+	stripe
+Frontend step
+
+step1:	Create React App & Setup
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend\frontend>npx create-react-app .
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend\frontend>npm start
+	http://localhost:3000/
+
+step2:	package installed
+	E:\senthil-react-onlineshop\nodejs-ecommerce-backend\frontend>npm i axios react-helmet-async redux react-redux redux-thunk redux-devtools-extension react-router-dom
+
+step3:	react frontend layout design
+	github link:
+	https://github.com/jvlcode/ecommerce-jvlcart-html
+step4:	Header & Footer layout
+	component name: Header.js
+			Footer.js
+Step5:	Create Home Component
+			Home.js
+	
